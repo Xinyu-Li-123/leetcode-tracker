@@ -1,0 +1,5 @@
+{
+	"name": "leetcode-today",
+	"entry": "src/index.tsx",
+	"ignore": false
+}
