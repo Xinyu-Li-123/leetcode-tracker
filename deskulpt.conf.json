@@ -1,5 +1,5 @@
 {
-	"name": "leetcode-today",
+	"name": "leetcode-tracker",
 	"entry": "src/index.tsx",
 	"ignore": false
 }
