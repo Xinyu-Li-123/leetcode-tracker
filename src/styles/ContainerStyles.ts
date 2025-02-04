@@ -5,7 +5,7 @@ const containerStyles: { [key: string]: React.CSSProperties } = {
     backgroundColor: "transparent",
     color: "white",
     fontFamily: "Arial, sans-serif",
-    padding: "10px 0 0 0",
+    padding: "10px 7px 5px 7px",
     borderRadius: "10px",
   },
   row: {

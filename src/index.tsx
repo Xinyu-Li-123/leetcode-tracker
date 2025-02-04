@@ -7,9 +7,7 @@ import SolvedCount from "./components/SolvedCount";
 import RecentAC from "./components/RecentAC";
 import Footer from "./components/Footer";
 import containerStyles from "./styles/ContainerStyles";
-
-let username = "Xinyu-Li-123";
-let api = "http://localhost:3000/api/leetcode";
+import { username, api } from "./config";
 
 function Display() {
   const [progress, setProgress] = React.useState<any>(null);
@@ -91,6 +89,6 @@ function Display() {
 
 export default {
   render: () => <Display />,
-  width: "200px",
+  width: "210px",
   height: "auto",
 };

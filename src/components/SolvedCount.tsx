@@ -12,8 +12,8 @@ interface SolvedCountProps {
 
 const COLORS = {
   EASY: "#00B8A4",
-  MEDIUM: "#FF375F",
-  HARD: "#FFC01E",
+  MEDIUM: "#FFC01E",
+  HARD: "#FF375F",
 };
 
 const SolvedCount: React.FC<SolvedCountProps> = ({
