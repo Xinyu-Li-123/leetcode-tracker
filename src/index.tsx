@@ -70,6 +70,8 @@ function Display() {
     <div style={containerStyles.container}>
       <div style={containerStyles.row}>
         <UserProfile username={profile.username} avatarUrl={profile.profile.userAvatar} />
+      </div>
+      <div style={containerStyles.row}>
         <SolvedCount
           easySolved={totalSolved.EASY}
           easyTotal={totalProblems.EASY}
@@ -88,7 +90,7 @@ function Display() {
 }
 
 export default {
-  render: () => <Display />,
-  width: "210px",
+  Component: Display,
+  width: "230px",
   height: "auto",
 };

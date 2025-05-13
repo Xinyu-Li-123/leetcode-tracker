@@ -3,6 +3,8 @@ import React from "@deskulpt-test/react";
 const solvedCountStyles: { [key: string]: React.CSSProperties } = {
   problemStats: {
     display: "flex",
+    flexDirection: "row",
+    gap: "10px",
     justifyContent: "space-around",
   },
   problemStat: {
